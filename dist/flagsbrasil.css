@@ -1,0 +1,55 @@
+.flag:before,
+.flag:after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+div > .flag {
+  width: 300px;
+  height: 200px;
+  box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
+}
+div > h1 {
+  color: rgba(0,0,0,0.6);
+  font-size: 0.5em;
+}
+.flag-ac {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-ac h1 {
+  text-align: center;
+}
+.flag-ac > .flag {
+  margin: 0 auto;
+  background: #019f6f;
+  background-image: linear-gradient(-213.5deg, #fee63c 50%, transparent 50%);
+}
+.flag-ac .flag:before {
+  content: '\2605';
+  color: #c0392b;
+  font-size: 70px;
+  margin-top: 0;
+  margin-left: 10px;
+}
+.flag-br {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-br h1 {
+  text-align: center;
+}
+.flag-br > .flag {
+  margin: 0 auto;
+  background: #fee63c;
+  background-image: linear-gradient(30deg, #019f6f 30%, transparent 30%), linear-gradient(-30deg, #019f6f 30%, transparent 30%), linear-gradient(210deg, #019f6f 30%, transparent 30%), linear-gradient(-210deg, #019f6f 30%, transparent 30%);
+}
+.flag-br .flag:before {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  background: #2765ae;
+  background-image: radial-gradient(circle at 0 175px, transparent 71%, #fff 72%, #fff 78%, transparent 79%);
+  border-radius: 50%;
+}
