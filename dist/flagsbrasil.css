@@ -53,3 +53,26 @@ div > h1 {
   background-image: radial-gradient(circle at 0 175px, transparent 71%, #fff 72%, #fff 78%, transparent 79%);
   border-radius: 50%;
 }
+.flag-ma {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-ma h1 {
+  text-align: center;
+}
+.flag-ma > .flag {
+  margin: 0 auto;
+  background-image: repeating-linear-gradient(#c0392b, #fff, #000);
+}
+.flag-ma .flag:before {
+  content: '\2605';
+  color: #fff;
+  font-size: 53px;
+  padding: 0 10px;
+  margin-top: 0;
+  margin-left: 0;
+  width: 60px;
+  height: 80px;
+  text-align: center;
+  background: #2980b9;
+}
