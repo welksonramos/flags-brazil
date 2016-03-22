@@ -7,8 +7,7 @@
     "build:css": "stylus src/ --out dist/",
     "server": "browser-sync start --files \"*.html, src/**/*.styl\" --server",
     "watch:css": "onchange \"src/**/*.styl\" -- npm run build:css",
-    "dev": "parallelshell \"npm run watch:css\" \"npm run server\"",
-    "deploy": "gh-pages -d dist"
+    "dev": "parallelshell \"npm run watch:css\" \"npm run server\""
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,6 @@
   "homepage": "https://github.com/welksonramos/flags-brazil#readme",
   "devDependencies": {
     "browser-sync": "^2.11.1",
-    "gh-pages": "^0.11.0",
     "onchange": "^2.1.2",
     "parallelshell": "^2.0.0",
     "stylus": "^0.54.2"
