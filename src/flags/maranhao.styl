@@ -1,4 +1,9 @@
 /* MARANHAO - ma */
+/*COLORS*/
+$vermelho = rgba(231, 76, 60,1)
+$branco =  rgba(255,255,255,1)
+$preto = rgba(0, 0, 0,1)
+$azul = rgba(41, 128, 185,1)
 
 .flag-ma
     padding 40px 0
@@ -9,17 +14,20 @@
 
 .flag-ma > .flag
     margin 0 auto
-    // background rgba(255,255,255,.4)
-    background-image repeating-linear-gradient(rgba(192, 57, 43,1), rgba(255,255,255,1), rgba(0, 0, 0,1))
+    background $branco
+    background-image linear-gradient(to bottom, $vermelho, $vermelho 11%, transparent 11%, transparent 22%, $preto 22%, $preto 33%, transparent 33%, transparent 44%, $vermelho 44%, $vermelho 55%, transparent 55%, transparent 66%, $preto 66%, $preto 77%, transparent 77%, transparent 88%, $vermelho 88%, $vermelho 99%)
 
 .flag-ma .flag:before
-    content '\2605'
-    color rgba(255, 255, 255,1)
-    font-size 53px
     padding 0 10px
-    margin-top 0
+    margin-top 0px
     margin-left 0
-    width 60px
-    height 80px
-    text-align center
-    background rgba(41, 128, 185,1)
+    width 100px
+    height 100px
+    display flex
+    background $azul
+
+.flag-ma .flag:after
+    content '\2605'
+    color $branco
+    font-size 90px
+    margin -20px 0 0 20px

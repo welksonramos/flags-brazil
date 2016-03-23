@@ -62,17 +62,21 @@ div > h1 {
 }
 .flag-ma > .flag {
   margin: 0 auto;
-  background-image: repeating-linear-gradient(#c0392b, #fff, #000);
+  background: #fff;
+  background-image: linear-gradient(to bottom, #e74c3c, #e74c3c 11%, transparent 11%, transparent 22%, #000 22%, #000 33%, transparent 33%, transparent 44%, #e74c3c 44%, #e74c3c 55%, transparent 55%, transparent 66%, #000 66%, #000 77%, transparent 77%, transparent 88%, #e74c3c 88%, #e74c3c 99%);
 }
 .flag-ma .flag:before {
+  padding: 0 10px;
+  margin-top: 0px;
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background: #2980b9;
+}
+.flag-ma .flag:after {
   content: '\2605';
   color: #fff;
-  font-size: 53px;
-  padding: 0 10px;
-  margin-top: 0;
-  margin-left: 0;
-  width: 60px;
-  height: 80px;
-  text-align: center;
-  background: #2980b9;
+  font-size: 90px;
+  margin: -20px 0 0 20px;
 }
