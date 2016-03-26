@@ -1,0 +1,30 @@
+/* BAHIA - ba */
+// Colors
+$branco = rgba(255, 255, 255, 1)
+$vermelho = rgba(231, 76, 60,1)
+$azul = rgba(41, 128, 185,1)
+
+.flag-ba
+    padding 40px 0
+    margin-bottom 10px
+
+.flag-ba h1
+    text-align center
+
+.flag-ba > .flag
+    margin 0 auto
+    background $branco
+    background-image linear-gradient(to bottom, transparent, transparent 27%, $vermelho 27%, $vermelho 50%, transparent 50%, transparent 75%, $vermelho 75%, $vermelho 100%)
+
+.flag-ba .flag:before
+    background $azul
+    margin-top 0
+    margin-left 0
+    width 100px
+    height 100px
+
+.flag-ba .flag:after
+    content '\25b2'
+    color $branco
+    font-size 2.7em
+    margin -20px 0 0 3px
