@@ -105,6 +105,27 @@ div > h1 {
   font-size: 90px;
   margin: -20px 0 0 20px;
 }
+.flag-ms {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-ms h1 {
+  text-align: center;
+}
+.flag-ms > .flag {
+  margin: 0 auto;
+  background: #fff;
+  background-image: linear-gradient(-224.5deg, #019f6f 31%, transparent 30%), linear-gradient(-44deg, #2980b9 58%, transparent 30%);
+}
+.flag-ms .flag:before {
+  content: '\2605';
+  color: #fee63c;
+  font-size: 68px;
+  margin-top: 90px;
+  margin-right: 25px;
+  float: right;
+  position: relative;
+}
 .flag-mt {
   padding: 40px 0;
   margin-bottom: 10px;
