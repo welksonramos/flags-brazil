@@ -152,3 +152,22 @@ div > h1 {
   font-size: 3.3em;
   margin: 7px 0 0 103px;
 }
+.flag-pa {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-pa h1 {
+  text-align: center;
+}
+.flag-pa > .flag {
+  margin: 0 auto;
+  background: #e74c3c;
+  background-image: linear-gradient(35deg, transparent 40%, #fff 40%, #fff 57%, transparent 57%);
+}
+.flag-pa .flag:before {
+  content: '\2605';
+  color: #2980b9;
+  font-size: 2em;
+  margin-top: 50px;
+  margin-left: 120px;
+}

@@ -1,0 +1,24 @@
+/* PARÁ - PA */
+// Colors
+$branco = rgba(255, 255, 255, 1)
+$vermelho = rgba(231, 76, 60,1)
+$azul = rgba(41, 128, 185,1)
+
+.flag-pa
+    padding 40px 0
+    margin-bottom 10px
+
+.flag-pa h1
+    text-align center
+
+.flag-pa > .flag
+    margin 0 auto
+    background $vermelho
+    background-image linear-gradient(35deg, transparent 40%, $branco 40%, $branco 57%, transparent 57%)
+
+.flag-pa .flag:before
+    content '\2605'
+    color $azul
+    font-size 2em
+    margin-top 50px
+    margin-left 120px
