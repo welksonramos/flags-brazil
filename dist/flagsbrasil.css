@@ -171,3 +171,24 @@ div > h1 {
   margin-top: 50px;
   margin-left: 120px;
 }
+.flag-pb {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-pb h1 {
+  text-align: center;
+}
+.flag-pb > .flag {
+  margin: 0 auto;
+  background: #e74c3c;
+  background-image: linear-gradient(to right, #000, #000 30%, transparent 30%, transparent);
+}
+.flag-pb .flag:before {
+  content: 'nego';
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-left: 120px;
+}

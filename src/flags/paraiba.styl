@@ -1,0 +1,26 @@
+/* PARAÍBA - PB */
+// Colors
+$branco = rgba(255, 255, 255, 1)
+$vermelho = rgba(231, 76, 60, 1)
+$preto = rgba(0, 0, 0, 1)
+
+.flag-pb
+    padding 40px 0
+    margin-bottom 10px
+
+.flag-pb h1
+    text-align center
+
+.flag-pb > .flag
+    margin 0 auto
+    background $vermelho
+    background-image linear-gradient(to right, $preto, $preto 30%, transparent 30%, transparent)
+
+.flag-pb .flag:before
+    content 'nego'
+    color $branco
+    font-size 1em
+    font-weight 300
+    text-transform uppercase
+    margin-top 70px
+    margin-left 120px
