@@ -192,3 +192,29 @@ div > h1 {
   margin-top: 70px;
   margin-left: 120px;
 }
+.flag-rr {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-rr h1 {
+  text-align: center;
+}
+.flag-rr > .flag {
+  margin: 0 auto;
+  background: #2980b9;
+  background-image: linear-gradient(-35deg, #019f6f 37%, #fff 37%, #fff 62%, transparent 62%);
+}
+.flag-rr .flag:before {
+  content: '\2605';
+  color: #fee63c;
+  font-size: 5em;
+  margin-top: -42px;
+  margin-left: 75px;
+}
+.flag-rr .flag:after {
+  content: '';
+  width: 300px;
+  height: 10px;
+  margin-top: 156px;
+  background: #e74c3c;
+}
