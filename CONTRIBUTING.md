@@ -1,6 +1,6 @@
 ## Contribua
 
-flags-brazil é construído usando stylus. Siga as seguintes etapas para contribuir corrigindo bugs ou adicionando novas _`features`_.
+flags-brazil é construído usando stylus. Siga as seguintes etapas para contribuir corrigindo ou adicionando novas _`features`_.
 
 1. Clone o repo:
  ```
