@@ -1,0 +1,28 @@
+// Piauí - PI
+$azul-escuro = rgba(31, 58, 147,1)
+$branco = rgba(255,255,255,1)
+$amarelo = rgba(254,230,60,1)
+$verde = rgba(1,159,111,1)
+
+.flag-pi
+    padding 40px 0
+    margin-bottom 10px
+
+.flag-pi h1
+    text-align center
+
+.flag-pi > .flag
+    margin 0 auto
+    background repeating-linear-gradient(to bottom, $verde, $verde 16px, $amarelo 0, $amarelo 31px)
+
+.flag-pi .flag:before
+    width 77px
+    height 77px
+    background $azul-escuro
+
+.flag-pi .flag:after
+    content '\2605'
+    color $branco
+    font-size 2.4em
+    margin-top -28px
+    margin-left 3px
