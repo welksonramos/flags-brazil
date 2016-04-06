@@ -5,7 +5,7 @@
 
 ## Features
 * Nada de Grunt/Gulp, somente npm scripts
-* :after, :before e linear-gradient - CSS :+1:
+* :after, :before, border, linear-gradient - CSS :+1:
 * Somente 2 tags html (divs)
 * [Stylus](http://stylus-lang.com/)
 * [Flat UI Colors](https://flatuicolors.com/)
