@@ -1,0 +1,34 @@
+// Rondônia - RO
+$azul-escuro = rgba(31, 58, 147,1)
+$branco = rgba(255,255,255,1)
+$amarelo = rgba(254,230,60,1)
+$verde = rgba(1,159,111,1)
+
+.flag-ro
+    padding 40px 0
+    margin-bottom 10px
+
+.flag-ro h1
+    text-align center
+
+.flag-ro > .flag
+    margin 0 auto
+    background: $amarelo
+    background-image: linear-gradient(0deg, transparent, transparent 50%, $azul-escuro 50%, $azul-escuro 100%)
+
+.flag-ro .flag:before
+    content ''
+    width 0
+    height 0
+    border-left 150px solid transparent
+    border-right 150px solid transparent
+    border-bottom 100px solid $verde
+    margin-top 100px
+    z-index 5
+
+.flag-ro .flag:after
+    content '\2605'
+    color $branco
+    font-size 3.3em
+    margin -12px 0 0 101px
+    z-index 2
