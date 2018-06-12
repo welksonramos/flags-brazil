@@ -1,12 +1,12 @@
 # [Flags Brazil](http://welksonramos.github.io/flags-brazil/)
-> Coleção de bandeiras dos Estados Federativos do Brasil feitas somente com CSS
+> Bandeiras dos Estados Federativos do Brasil feitas somente com CSS
 
 ![Flags Brazil Website](flags-brazil-website.jpg)
 
 ## Features
 * Nada de Grunt/Gulp, somente npm scripts
 * :after, :before, border, linear-gradient - CSS :+1:
-* Somente 2 tags html (divs)
+* ~Somente 2 tags html (divs)~
 * [Stylus](http://stylus-lang.com/)
 * [Flat UI Colors](https://flatuicolors.com/)
 
