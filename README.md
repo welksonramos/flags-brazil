@@ -17,6 +17,8 @@ $ npm run server     - Inicia o servidor estático e assiste os arquivos
 $ npm run watch:css  - Assiste as mudanças nos arquivos e prepara para compilar
 $ npm run dev        - Compila os arquivos e inicia o servidor estático
 ```
+## Fix
+* Upgrade parallelshell to version 3.0.2 to fix bug (Obrigado @gustavogf)
 
 ## Contribua
 Gostaria de contribuir com o projeto? [Siga estas recomendações](CONTRIBUTING.md) :smile:
