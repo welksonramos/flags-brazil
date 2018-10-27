@@ -1,4 +1,4 @@
-/* Mato Grosso do Sul - ms */
+/*!  MATO GROSSO DO SUL - MS  */
 
 // Colors
 $branco = rgba(255,255,255,1)
@@ -7,23 +7,16 @@ $azul = rgba(41, 128, 185,1)
 $amarelo = rgba(254,230,60,1)
 
 .flag-ms
-    padding 40px 0
-    margin-bottom 10px
+  background $branco
+  background-image: linear-gradient(-224.5deg, $verde 31%, transparent 30%),
+  linear-gradient(-44deg, $azul 58%, transparent 30%)
+  position: relative
 
-.flag-ms h1
-    text-align center
-
-.flag-ms > .flag
-    margin 0 auto
-    background $branco
-    background-image: linear-gradient(-224.5deg, $verde 31%, transparent 30%),
-    linear-gradient(-44deg, $azul 58%, transparent 30%)
-
-.flag-ms .flag:before
+  &:before
+    position: absolute
     content '\2605'
     color $amarelo
-    font-size 68px
-    margin-top 90px
-    margin-right 25px
-    float right
-    position relative
+    font-size $size = 60px
+    line-height $size
+    bottom: 25px
+    right: 25px

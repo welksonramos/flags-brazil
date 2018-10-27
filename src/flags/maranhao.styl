@@ -1,33 +1,37 @@
-/* MARANHAO - ma */
-/*COLORS*/
+/*!  MARANHAO - MA  */
+
+// Colors
 $vermelho = rgba(231, 76, 60,1)
 $branco =  rgba(255,255,255,1)
 $preto = rgba(0, 0, 0,1)
 $azul = rgba(41, 128, 185,1)
+$size = 89px
 
 .flag-ma
-    padding 40px 0
-    margin-bottom 10px
+  background-image repeating-linear-gradient(
+    to bottom,
+    $vermelho,
+    $vermelho 11.1%,
+    $branco 11.1%,
+    $branco 22.2%,
+    $preto 22.2%,
+    $preto 33.3%,
+    $branco 33.3%,
+    $branco 44.4%
+  )
 
-.flag-ma h1
-    text-align center
-
-.flag-ma > .flag
-    margin 0 auto
-    background $branco
-    background-image linear-gradient(to bottom, $vermelho, $vermelho 11%, transparent 11%, transparent 22%, $preto 22%, $preto 33%, transparent 33%, transparent 44%, $vermelho 44%, $vermelho 55%, transparent 55%, transparent 66%, $preto 66%, $preto 77%, transparent 77%, transparent 88%, $vermelho 88%, $vermelho 99%)
-
-.flag-ma .flag:before
-    padding 0 10px
-    margin-top 0px
-    margin-left 0
-    width 100px
-    height 100px
-    display flex
+  &:before
+    margin 0
+    width $size
+    height $size
     background $azul
 
-.flag-ma .flag:after
+  &:after
     content '\2605'
     color $branco
-    font-size 90px
-    margin -20px 0 0 20px
+    font-size 70px
+    width $size
+    height $size
+    display: flex
+    align-items center
+    justify-content center

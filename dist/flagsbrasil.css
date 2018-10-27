@@ -1,272 +1,221 @@
+/*
+*
+*   Flags Brazil
+*
+*/
+.flag {
+  width: 300px;
+  height: 200px;
+  box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
+  margin: auto;
+  font: normal normal 16px/1.5 Arial, sans-serif;
+  position: relative;
+}
 .flag:before,
 .flag:after {
   content: '';
   display: block;
   position: absolute;
 }
-div > .flag {
-  width: 300px;
-  height: 200px;
-  box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
-}
-div > h1 {
-  color: rgba(0,0,0,0.6);
-  font-size: 0.5em;
-}
+/*  ACRE - AC  */
 .flag-ac {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: linear-gradient(-213.5deg, #fee63c 50%, #019f6f 50%);
 }
-.flag-ac h1 {
-  text-align: center;
-}
-.flag-ac > .flag {
-  margin: 0 auto;
-  background: #019f6f;
-  background-image: linear-gradient(-213.5deg, #fee63c 50%, transparent 50%);
-}
-.flag-ac .flag:before {
+.flag-ac:before {
   content: '\2605';
   color: #c0392b;
-  font-size: 70px;
-  margin-top: 0;
-  margin-left: 10px;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 15px 0 0 15px;
 }
+/*  BAHIA - BA  */
 .flag-ba {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: repeating-linear-gradient(to bottom, #fff, #fff 25%, #e74c3c 25%, #e74c3c 50%);
 }
-.flag-ba h1 {
-  text-align: center;
-}
-.flag-ba > .flag {
-  margin: 0 auto;
-  background: #fff;
-  background-image: linear-gradient(to bottom, transparent, transparent 27%, #e74c3c 27%, #e74c3c 50%, transparent 50%, transparent 75%, #e74c3c 75%, #e74c3c 100%);
-}
-.flag-ba .flag:before {
+.flag-ba:before {
   background: #2980b9;
-  margin-top: 0;
-  margin-left: 0;
   width: 100px;
   height: 100px;
 }
-.flag-ba .flag:after {
-  content: '\25b2';
-  color: #fff;
-  font-size: 2.7em;
-  margin: -20px 0 0 3px;
+.flag-ba:after {
+  font-size: 2.7rem;
+  margin: 18px 0 0 12px;
+  border-bottom: 65px solid #fff;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
 }
+/*  BRASIL - BR  */
 .flag-br {
-  padding: 40px 0;
-  margin-bottom: 10px;
-}
-.flag-br h1 {
-  text-align: center;
-}
-.flag-br > .flag {
-  margin: 0 auto;
   background: #fee63c;
   background-image: linear-gradient(30deg, #019f6f 30%, transparent 30%), linear-gradient(-30deg, #019f6f 30%, transparent 30%), linear-gradient(210deg, #019f6f 30%, transparent 30%), linear-gradient(-210deg, #019f6f 30%, transparent 30%);
 }
-.flag-br .flag:before {
+.flag-br:before {
   width: 100px;
   height: 100px;
-  margin-top: 50px;
-  margin-left: 100px;
-  background: #2765ae;
-  background-image: radial-gradient(circle at 0 175px, transparent 71%, #fff 72%, #fff 78%, transparent 79%);
+  margin: 50px 0 0 100px;
+  background: #2765ae radial-gradient(circle at 0 175px, transparent 71%, #fff 72%, #fff 78%, transparent 79%);
   border-radius: 50%;
 }
+/*  MARANHAO - MA  */
 .flag-ma {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: repeating-linear-gradient(to bottom, #e74c3c, #e74c3c 11.1%, #fff 11.1%, #fff 22.2%, #000 22.2%, #000 33.3%, #fff 33.3%, #fff 44.4%);
 }
-.flag-ma h1 {
-  text-align: center;
-}
-.flag-ma > .flag {
-  margin: 0 auto;
-  background: #fff;
-  background-image: linear-gradient(to bottom, #e74c3c, #e74c3c 11%, transparent 11%, transparent 22%, #000 22%, #000 33%, transparent 33%, transparent 44%, #e74c3c 44%, #e74c3c 55%, transparent 55%, transparent 66%, #000 66%, #000 77%, transparent 77%, transparent 88%, #e74c3c 88%, #e74c3c 99%);
-}
-.flag-ma .flag:before {
-  padding: 0 10px;
-  margin-top: 0px;
-  margin-left: 0;
-  width: 100px;
-  height: 100px;
-  display: flex;
+.flag-ma:before {
+  margin: 0;
+  width: 89px;
+  height: 89px;
   background: #2980b9;
 }
-.flag-ma .flag:after {
+.flag-ma:after {
   content: '\2605';
   color: #fff;
-  font-size: 90px;
-  margin: -20px 0 0 20px;
+  font-size: 70px;
+  width: 89px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+/*  MATO GROSSO DO SUL - MS  */
 .flag-ms {
-  padding: 40px 0;
-  margin-bottom: 10px;
-}
-.flag-ms h1 {
-  text-align: center;
-}
-.flag-ms > .flag {
-  margin: 0 auto;
   background: #fff;
   background-image: linear-gradient(-224.5deg, #019f6f 31%, transparent 30%), linear-gradient(-44deg, #2980b9 58%, transparent 30%);
-}
-.flag-ms .flag:before {
-  content: '\2605';
-  color: #fee63c;
-  font-size: 68px;
-  margin-top: 90px;
-  margin-right: 25px;
-  float: right;
   position: relative;
 }
+.flag-ms:before {
+  position: absolute;
+  content: '\2605';
+  color: #fee63c;
+  font-size: 60px;
+  line-height: 60px;
+  bottom: 25px;
+  right: 25px;
+}
+/*  MATO GROSSO - MT  */
 .flag-mt {
-  padding: 40px 0;
-  margin-bottom: 10px;
-}
-.flag-mt h1 {
-  text-align: center;
-}
-.flag-mt > .flag {
   margin: 0 auto;
   background: #fff;
   background-image: linear-gradient(30deg, #1f3a93 30%, transparent 30%), linear-gradient(-30deg, #1f3a93 30%, transparent 30%), linear-gradient(210deg, #1f3a93 30%, transparent 30%), linear-gradient(-210deg, #1f3a93 30%, transparent 30%);
 }
-.flag-mt .flag:before {
+.flag-mt:before {
   width: 100px;
   height: 100px;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin: 50px 0 0 100px;
   background: #019f6f;
   border-radius: 50%;
 }
-.flag-mt .flag:after {
+.flag-mt:after {
   content: '\2605';
   color: #fee63c;
-  font-size: 3.3em;
-  margin: 7px 0 0 103px;
+  font-size: 93px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  margin-top: -3px;
+  justify-content: center;
+  align-items: center;
 }
+/*  MINAS GERAIS - MG  */
+.flag-mg {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flag-mg:before {
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 90px solid #f00;
+}
+/*  PARÁ - PA  */
 .flag-pa {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: linear-gradient(34deg, #e74c3c 41%, #fff 41%, #fff 58%, #e74c3c 58%);
 }
-.flag-pa h1 {
-  text-align: center;
-}
-.flag-pa > .flag {
-  margin: 0 auto;
-  background: #e74c3c;
-  background-image: linear-gradient(35deg, transparent 40%, #fff 40%, #fff 57%, transparent 57%);
-}
-.flag-pa .flag:before {
+.flag-pa:before {
   content: '\2605';
   color: #2980b9;
-  font-size: 2em;
-  margin-top: 50px;
-  margin-left: 120px;
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+/*  PARAÍBA - PB  */
 .flag-pb {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: linear-gradient(to right, #000, #000 30%, #e74c3c 30%);
 }
-.flag-pb h1 {
-  text-align: center;
-}
-.flag-pb > .flag {
-  margin: 0 auto;
-  background: #e74c3c;
-  background-image: linear-gradient(to right, #000, #000 30%, transparent 30%, transparent);
-}
-.flag-pb .flag:before {
-  content: 'nego';
+.flag-pb:before {
+  content: 'NEGO';
   color: #fff;
-  font-size: 1em;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-top: 70px;
-  margin-left: 120px;
+  font-size: 30px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  margin-left: 90px;
 }
+/*  PIAUÍ - PI  */
 .flag-pi {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: repeating-linear-gradient(to bottom, #019f6f, #019f6f 16px, #fee63c 0, #fee63c 31px);
 }
-.flag-pi h1 {
-  text-align: center;
-}
-.flag-pi > .flag {
-  margin: 0 auto;
-  background: repeating-linear-gradient(to bottom, #019f6f, #019f6f 16px, #fee63c 0, #fee63c 31px);
-}
-.flag-pi .flag:before {
-  width: 77px;
-  height: 77px;
+.flag-pi:before {
+  width: 90px;
+  height: 78px;
   background: #1f3a93;
 }
-.flag-pi .flag:after {
+.flag-pi:after {
   content: '\2605';
   color: #fff;
-  font-size: 2.4em;
-  margin-top: -28px;
-  margin-left: 3px;
+  font-size: 52px;
+  display: flex;
+  width: 90px;
+  height: 78px;
+  align-items: center;
+  justify-content: center;
 }
+/*  RONDÔNIA - RO  */
 .flag-ro {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: linear-gradient(0deg, #fee63c, #fee63c 50%, #1f3a93 50%, #1f3a93 100%);
 }
-.flag-ro h1 {
-  text-align: center;
-}
-.flag-ro > .flag {
-  margin: 0 auto;
-  background: #fee63c;
-  background-image: linear-gradient(0deg, transparent, transparent 50%, #1f3a93 50%, #1f3a93 100%);
-}
-.flag-ro .flag:before {
-  content: '';
-  width: 0;
-  height: 0;
+.flag-ro:before {
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
   border-bottom: 100px solid #019f6f;
   margin-top: 100px;
-  z-index: 5;
-}
-.flag-ro .flag:after {
-  content: '\2605';
-  color: #fff;
-  font-size: 3.3em;
-  margin: -12px 0 0 101px;
   z-index: 2;
 }
+.flag-ro:after {
+  content: '\2605';
+  color: #fff;
+  font-size: 70px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -14px;
+  z-index: 1;
+}
+/*  RORAIMA - RR  */
 .flag-rr {
-  padding: 40px 0;
-  margin-bottom: 10px;
+  background-image: linear-gradient(-32deg, #019f6f 36%, #fff 36%, #fff 65%, #2980b9 65%);
 }
-.flag-rr h1 {
-  text-align: center;
-}
-.flag-rr > .flag {
-  margin: 0 auto;
-  background: #2980b9;
-  background-image: linear-gradient(-35deg, #019f6f 37%, #fff 37%, #fff 62%, transparent 62%);
-}
-.flag-rr .flag:before {
+.flag-rr:before {
   content: '\2605';
   color: #fee63c;
-  font-size: 5em;
-  margin-top: -42px;
-  margin-left: 75px;
+  font-size: 176px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8px;
 }
-.flag-rr .flag:after {
-  content: '';
+.flag-rr:after {
   width: 300px;
   height: 10px;
-  margin-top: 156px;
+  margin-top: 174px;
   background: #e74c3c;
 }

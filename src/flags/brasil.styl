@@ -1,23 +1,20 @@
+/*!  BRASIL - BR  */
+
 .flag-br
-    padding 40px 0
-    margin-bottom 10px
+  background: #fee63c
+  background-image: linear-gradient(30deg, #019f6f 30%, transparent 30%),
+  linear-gradient(-30deg, #019f6f 30%, transparent 30%),
+  linear-gradient(210deg, #019f6f 30%, transparent 30%),
+  linear-gradient(-210deg, #019f6f 30%, transparent 30%)
 
-.flag-br h1
-    text-align center
-
-.flag-br > .flag
-    margin 0 auto
-    background: #fee63c
-    background-image: linear-gradient(30deg, #019f6f 30%, transparent 30%),
-    linear-gradient(-30deg, #019f6f 30%, transparent 30%),
-    linear-gradient(210deg, #019f6f 30%, transparent 30%),
-    linear-gradient(-210deg, #019f6f 30%, transparent 30%)
-
-.flag-br .flag:before
+  &:before
     width 100px
     height 100px
-    margin-top 50px
-    margin-left 100px
-    background #2765ae
-    background-image radial-gradient(circle at 0 175px, transparent 71%, white 72%, #fff 78%, transparent 79%)
+    margin 50px 0 0 100px
+    background #2765ae radial-gradient(
+      circle at 0 175px,
+      transparent 71%, white 72%,
+      #fff 78%,
+      transparent 79%
+    )
     border-radius 50%

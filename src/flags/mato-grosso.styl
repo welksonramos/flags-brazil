@@ -1,33 +1,33 @@
-// Mato Grosso
+/*!  MATO GROSSO - MT  */
+
+// Cores
 $azul-escuro = rgba(31, 58, 147,1)
 $branco = rgba(255,255,255,1)
 $amarelo = rgba(254,230,60,1)
 $verde = rgba(1,159,111,1)
+
 .flag-mt
-    padding 40px 0
-    margin-bottom 10px
+  margin 0 auto
+  background $branco
+  background-image linear-gradient(30deg, $azul-escuro 30%, transparent 30%),
+  linear-gradient(-30deg, $azul-escuro 30%, transparent 30%),
+  linear-gradient(210deg, $azul-escuro 30%, transparent 30%),
+  linear-gradient(-210deg, $azul-escuro 30%, transparent 30%)
 
-.flag-mt h1
-    text-align center
-
-.flag-mt > .flag
-    margin 0 auto
-    background: $branco
-    background-image: linear-gradient(30deg, $azul-escuro 30%, transparent 30%),
-    linear-gradient(-30deg, $azul-escuro 30%, transparent 30%),
-    linear-gradient(210deg, $azul-escuro 30%, transparent 30%),
-    linear-gradient(-210deg, $azul-escuro 30%, transparent 30%)
-
-.flag-mt .flag:before
+  &:before
     width 100px
     height 100px
-    margin-top 50px
-    margin-left 100px
+    margin 50px 0 0 100px
     background $verde
     border-radius 50%
 
-.flag-mt .flag:after
+  &:after
     content '\2605'
     color $amarelo
-    font-size 3.3em
-    margin 7px 0 0 103px
+    font-size 93px
+    width 300px
+    height: 200px
+    display flex
+    margin-top -3px
+    justify-content: center
+    align-items: center
