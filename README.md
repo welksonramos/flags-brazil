@@ -17,6 +17,9 @@ $ npm run server     - Inicia o servidor estático e assiste os arquivos
 $ npm run watch:css  - Assiste as mudanças nos arquivos e prepara para compilar
 $ npm run dev        - Compila os arquivos e inicia o servidor estático
 ```
+## Added in 0.1.2
+* Add flag Minas Gerais and more (pull #5 - Thanks @tiagoporto)
+
 ## Fix
 * Upgrade parallelshell to version 3.0.2 to fix bug (Obrigado @gustavogf)
 
