@@ -1,79 +1,83 @@
 *
-    box-sizing border-box
+  box-sizing border-box
 
 html,
 body
-    margin 0
-    padding 0
-    background rgba(255,255,255,1)
-    font 300 normal 1.5em/1.5 'open-sans', sans-serif
+  margin 0
+  padding 0
+  background rgba(255,255,255,1)
+  font 300 normal 1.5em/1.5 'Open Sans', sans-serif
 
 .header
-    color rgba(255,255,255,1)
-    display block
-    width 100%
-    height 50vh
-    padding 20px 0
-    background linear-gradient(to right, rgba(1, 159, 111,1), rgba(241, 196, 15,1.0))
-    text-align center
+  color rgba(255,255,255,1)
+  display block
+  width 100%
+  padding 20px 10px
+  background linear-gradient(to right, rgba(1, 159, 111,1), rgba(241, 196, 15,1.0))
+  text-align center
+  margin-bottom: 50px
 
-.header h1
+  & h1
     color #fff
     margin 0
-    padding-top 30px
-    text-shadow 7px 7px 0 rgba(0,0,0,.2)
+    padding-top 20px
+    text-shadow 5px 5px 0 rgba(0,0,0,.2)
 
-.header h2
+  & p
     font-size .6em
-    padding 0
     max-width 500px
     text-align center
     margin 12px auto
+    text-shadow 2px 2px 0 rgba(0,0,0,.2)
 
-.header h2
-    text-shadow 5px 1px 0 rgba(0,0,0,.2)
+.contribute-btn
+  color rgba(255,255,255,1)
+  font-size .45em
+  border 2px solid rgba(255,255,255,1)
+  transition .5s
+  padding 10px 20px
+  text-decoration none
+  text-transform uppercase
 
-.btn-contribua
-    color rgba(255,255,255,1)
-    font-size .45em
-    border 2px solid rgba(255,255,255,1)
-    transition .5s
-    padding 10px 20px
-    text-decoration none
-    text-transform uppercase
-
-.btn-contribua:hover
+  &:hover
     color rgba(255,255,255,0.5)
     border 2px solid rgba(255,255,255,0.5)
 
-.section-flags
-    display flex
-    flex-flow row wrap
-    align-items left
-    justify-content space-between
-    width 100%
-    max-width 1200px
-    margin 0 auto
-    padding 10px
+.container
+  display flex
+  flex-flow row wrap
+  justify-content space-between
+  max-width 1200px
+  margin 0 auto
+  padding 10px
+
+  > div
+    flex 1 1
+    margin-bottom 50px
+
+  h1
+    color rgba(0,0,0,.6)
+    font-size .5em
+    text-align: center
 
 .footer
-    font-size .5em
-    width 100%
-    padding 5px 0
-    background linear-gradient(to right, rgba(1, 159, 111,1), rgba(241, 196, 15,1.0))
-    text-align center
+  font-size .5em
+  width 100%
+  padding 5px 0
+  background linear-gradient(to right, rgba(1, 159, 111,1), rgba(241, 196, 15,1.0))
+  text-align center
 
-.footer .heart
+  & .heart
     color rgba(255,255,255,1)
     display inline-block
     width 14px
     height 14px
     margin 0 5px
 
-.footer > p,
-.footer a
+  & > p,
+  & a
     color rgba(255,255,255,1)
 
-.footer a
+  & a
     text-decoration none
 
