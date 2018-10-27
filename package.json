@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "stylus src/ --out dist/",
-    "server": "browser-sync start --files \"*.html, src/**/*.styl\" --server",
+    "server": "browser-sync start --files \"*.html, dist/**/*.css\" --server",
     "watch:css": "onchange \"src/**/*.styl\" -- npm run build:css",
     "dev": "parallelshell \"npm run watch:css\" \"npm run server\""
   },
