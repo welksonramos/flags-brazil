@@ -56,6 +56,19 @@
   background: #2765ae radial-gradient(circle at 0 175px, transparent 71%, #fff 72%, #fff 78%, transparent 79%);
   border-radius: 50%;
 }
+/*  DISTRITO FEDERAL - DF  */
+.flag-df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flag-df:before {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-color: #00933d;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='500'%3E%3Cpath fill='%23f8c300' d='M213.439 213.439H109.684L83.992 239.13H36.561v-25.691L0 250l36.561 36.561V260.87h47.431l25.692 25.691h103.755L176.877 250z'/%3E%3Cpath fill='%23f8c300' d='M286.561 213.439V109.684L260.87 83.992V36.561h25.691L250 0l-36.561 36.561h25.691v47.431l-25.691 25.692v103.755L250 176.877z'/%3E%3Cpath fill='%23f8c300' d='M213.439 286.561v103.755l25.691 25.692v47.431h-25.691L250 500l36.561-36.561H260.87v-47.431l25.691-25.692V286.561L250 323.123z'/%3E%3Cpath fill='%23f8c300' d='M500 250l-36.561-36.561v25.691h-47.431l-25.692-25.691H286.561L323.123 250l-36.562 36.561h103.755l25.692-25.691h47.431v25.691z'/%3E%3C/svg%3E");
+}
 /*  MARANHAO - MA  */
 .flag-ma {
   background-image: repeating-linear-gradient(to bottom, #e74c3c, #e74c3c 11.1%, #fff 11.1%, #fff 22.2%, #000 22.2%, #000 33.3%, #fff 33.3%, #fff 44.4%);
