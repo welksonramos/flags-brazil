@@ -8,6 +8,17 @@
   ],
   "imageSize": 100,
   "commit": true,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "tiagoporto",
+      "name": "Tiago Porto",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3688905?v=4",
+      "profile": "http://tiagoporto.com",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
