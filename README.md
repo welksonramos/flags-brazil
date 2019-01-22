@@ -18,12 +18,6 @@ $ npm run server     - Inicia o servidor estático e assiste os arquivos
 $ npm run watch:css  - Assiste as mudanças nos arquivos e prepara para compilar
 $ npm run dev        - Compila os arquivos e inicia o servidor estático
 ```
-## Added in 0.1.2
-* Add flag Minas Gerais and more (pull #5 - Thanks @tiagoporto)
-
-## Fix
-* Upgrade parallelshell to version 3.0.2 to fix bug (Obrigado @gustavogf)
-
 ## Contribua
 Gostaria de contribuir com o projeto? [Siga estas recomendações](CONTRIBUTING.md) :smile:
 
@@ -36,7 +30,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/3688905?v=4" width="100px;" alt="Tiago Porto"/><br /><sub><b>Tiago Porto</b></sub>](http://tiagoporto.com)<br />[🐛](https://github.com/welksonramos/flags-brazil/issues?q=author%3Atiagoporto "Bug reports") [💻](https://github.com/welksonramos/flags-brazil/commits?author=tiagoporto "Code") | [<img src="https://avatars0.githubusercontent.com/u/10941616?v=4" width="100px;" alt="Gustavo Guimarães"/><br /><sub><b>Gustavo Guimarães</b></sub>](https://github.com/gustavogf)<br />[🐛](https://github.com/welksonramos/flags-brazil/issues?q=author%3Agustavogf "Bug reports") |
+| [<img src="https://avatars0.githubusercontent.com/u/10941616?v=4" width="100px;" alt="Gustavo Guimarães"/><br /><sub><b>Gustavo Guimarães</b></sub>](https://github.com/gustavogf)<br />[🐛](https://github.com/welksonramos/flags-brazil/issues?q=author%3Agustavogf "Bug reports") | [<img src="https://avatars3.githubusercontent.com/u/3688905?v=4" width="100px;" alt="Tiago Porto"/><br /><sub><b>Tiago Porto</b></sub>](http://tiagoporto.com)<br />[🐛](https://github.com/welksonramos/flags-brazil/issues?q=author%3Atiagoporto "Bug reports") [💻](https://github.com/welksonramos/flags-brazil/commits?author=tiagoporto "Code") |
 | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
