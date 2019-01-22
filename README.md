@@ -1,4 +1,5 @@
 # [Flags Brazil](http://welksonramos.github.io/flags-brazil/)
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
 > Bandeiras dos Estados Federativos do Brasil feitas somente com CSS
 
 ![Flags Brazil Website](flags-brazil-website.jpg)
@@ -28,3 +29,13 @@ Gostaria de contribuir com o projeto? [Siga estas recomendações](CONTRIBUTING.
 
 ## License
 [MIT License](LICENSE) &copy; 2016 Welkson Ramos
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

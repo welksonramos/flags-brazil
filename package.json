@@ -7,7 +7,9 @@
     "build:css": "stylus src/ --out dist/",
     "server": "browser-sync start --files \"*.html, dist/**/*.css\" --server",
     "watch:css": "onchange \"src/**/*.styl\" -- npm run build:css",
-    "dev": "parallelshell \"npm run watch:css\" \"npm run server\""
+    "dev": "parallelshell \"npm run watch:css\" \"npm run server\"",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   },
   "homepage": "https://github.com/welksonramos/flags-brazil#readme",
   "devDependencies": {
+    "all-contributors-cli": "^5.10.2",
     "browser-sync": "^2.11.1",
     "onchange": "^2.1.2",
     "parallelshell": "^3.0.2",
