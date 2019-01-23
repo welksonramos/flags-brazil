@@ -1,4 +1,4 @@
-# [Flags Brazil](http://welksonramos.github.io/flags-brazil/)
+# [Flags Brazil](https://flags-brazil.now.sh/)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 > Bandeiras dos Estados Federativos do Brasil feitas somente com CSS
 
@@ -13,10 +13,13 @@
 
 ## Tasks
 ```
-$ npm run build:css  - Compila os arquivos .styl
-$ npm run server     - Inicia o servidor estático e assiste os arquivos
-$ npm run watch:css  - Assiste as mudanças nos arquivos e prepara para compilar
-$ npm run dev        - Compila os arquivos e inicia o servidor estático
+$ npm run build:css          - Compila os arquivos .styl
+$ npm run server             - Inicia o servidor estático e assiste os arquivos
+$ npm run watch:css          - Assiste as mudanças nos arquivos e prepara para compilar
+$ npm run dev                - Compila os arquivos e inicia o servidor estático
+$ npm run contrib:add        - Add contribuidor ao arquivo .contributorsrc
+$ npm run contrib:generate   - Atualiza lista de constribuidores no arquivo README.md
+$ npm run deploy             - Faz o deploy dos arquivos estáticos para flags-brazil.now.sh
 ```
 ## Contribua
 Gostaria de contribuir com o projeto? [Siga estas recomendações](CONTRIBUTING.md) :smile:
