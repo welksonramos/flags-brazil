@@ -8,8 +8,8 @@
     "server": "browser-sync start --files \"*.html, dist/**/*.css\" --server",
     "watch:css": "onchange \"src/**/*.styl\" -- npm run build:css",
     "dev": "parallelshell \"npm run watch:css\" \"npm run server\"",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contrib:add": "all-contributors add",
+    "contrib:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
