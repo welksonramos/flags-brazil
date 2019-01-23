@@ -1,0 +1,19 @@
+{
+  "name": "flags-brazil",
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/html-minifier"
+    },
+    {
+      "src": "dist/*.css",
+      "use": "@now/html-minifier"
+    }
+  ],
+  "github": {
+    "autoAlias": false,
+    "silent": true
+  }
+}
