@@ -1,0 +1,10 @@
+src
+CONTRIBUTING.md
+LICENSE
+README.md
+flags-brazil-website.jpg
+.editorconfig
+.gitignore
+.all-contributorsrc
+package-lock.json
+package.json
