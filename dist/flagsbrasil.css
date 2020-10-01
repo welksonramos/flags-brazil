@@ -173,6 +173,20 @@
   width: 210px;
   margin-left: 90px;
 }
+/*  PARANÁ - PR  */
+.flag-pr {
+  background-image: linear-gradient(34deg, #008c43 30%, #fff 0, #fff 75%, #008c43 50%);
+}
+.flag-pr:before {
+  background: #3f51b5 radial-gradient(circle at 0 175px, transparent 71%, #fff 72%, #fff 78%, transparent 79%);
+  border-radius: 50%;
+  color: #3f51b5;
+  content: '';
+  height: 100px;
+  margin: 40px 0 0 100px;
+  position: absolute;
+  width: 100px;
+}
 /*  PIAUÍ - PI  */
 .flag-pi {
   background-image: repeating-linear-gradient(to bottom, #019f6f, #019f6f 16px, #fee63c 0, #fee63c 31px);

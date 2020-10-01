@@ -1,0 +1,30 @@
+/*!  PARANÁ - PR  */
+
+// Colors
+$azul = #3F51B5
+$branco = #fff
+$verde = #008c43
+
+.flag-pr
+  background-image linear-gradient(
+    34deg,
+    $verde 30%,
+    $branco 0,
+    $branco 75%,
+    $verde 50%
+  )
+
+  &:before
+    background $azul radial-gradient(
+        circle at 0 175px, 
+        transparent 71%, $branco 72%, 
+        $branco 78%, 
+        transparent 79%
+    )
+    border-radius 50%
+    color $azul
+    content ''
+    height 100px
+    margin 40px 0 0 100px
+    position absolute
+    width 100px
