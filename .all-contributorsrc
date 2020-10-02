@@ -9,7 +9,7 @@
   "imageSize": 100,
   "commit": true,
   "contributors": [
-      {
+    {
       "login": "gustavogf",
       "name": "Gustavo Guimarães",
       "avatar_url": "https://avatars0.githubusercontent.com/u/10941616?v=4",
@@ -18,13 +18,22 @@
         "bug"
       ]
     },
-      {
+    {
       "login": "tiagoporto",
       "name": "Tiago Porto",
       "avatar_url": "https://avatars3.githubusercontent.com/u/3688905?v=4",
       "profile": "http://tiagoporto.com",
       "contributions": [
         "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "laisfrigerio",
+      "name": "Lais Frigério ",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20709086?v=4",
+      "profile": "https://laisfrigerio.github.io",
+      "contributions": [
         "code"
       ]
     }
