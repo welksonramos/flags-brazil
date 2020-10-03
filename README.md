@@ -19,7 +19,6 @@ $ npm run watch:css          - Assiste as mudanças nos arquivos e prepara para 
 $ npm run dev                - Compila os arquivos e inicia o servidor estático
 $ npm run contrib:add        - Add contribuidor ao arquivo .contributorsrc
 $ npm run contrib:generate   - Atualiza lista de constribuidores no arquivo README.md
-$ npm run deploy             - Faz o deploy dos arquivos estáticos para flags-brazil.now.sh
 ```
 ## Contribua
 Gostaria de contribuir com o projeto? [Siga estas recomendações](CONTRIBUTING.md) :smile:
