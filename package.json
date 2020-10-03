@@ -9,8 +9,7 @@
     "watch:css": "onchange \"src/**/*.styl\" -- npm run build:css",
     "dev": "parallelshell \"npm run watch:css\" \"npm run server\"",
     "contrib:add": "all-contributors add",
-    "contrib:generate": "all-contributors generate",
-    "deploy": "now"
+    "contrib:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
@@ -31,7 +30,6 @@
   "devDependencies": {
     "all-contributors-cli": "^5.10.2",
     "browser-sync": "^2.11.1",
-    "now": "^13.1.2",
     "onchange": "^2.1.2",
     "parallelshell": "^3.0.2",
     "stylus": "^0.54.2"
